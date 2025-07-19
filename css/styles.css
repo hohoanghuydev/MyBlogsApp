@@ -1,0 +1,36 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+}
+
+.name-page {
+    font-family: "Great Vibes", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2rem;
+}
+
+.icon-header {
+
+}
+
+.recent-posts {
+
+}
+
+.recent-posts-main {
+    width: 70%;
+}
+
+.recent-posts-sidebar {
+    width: 30%;
+}
+
+footer {
+    height: 7rem;
+    background-color: #5E936C;
+}
+
+.footer-sign {
+    text-align: center;
+}
