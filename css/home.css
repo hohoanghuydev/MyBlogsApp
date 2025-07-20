@@ -1,0 +1,448 @@
+.banner {
+    position: relative;
+}
+
+.banner img {
+    border-radius: 0.5rem;
+    width: 100%;
+    height: auto;
+}
+
+.banner-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 40rem;
+    padding: 3rem;
+}
+
+.banner-content h1 {
+
+}
+
+.banner-action {
+
+}
+
+.banner-action button {
+    border-color: transparent;
+    border-radius: 100%;
+    padding: 0.75rem;
+
+    transition: background-color linear 0.1s;
+}
+
+.banner-action a {
+    color: #E8FFD7;
+    margin-left: 1rem;
+    font-weight: bold;
+    font-size: 0.75rem;
+}
+
+.banner-action button:hover {
+    background-color: #E8FFD7;
+}
+
+/* Most popular */
+.banner, .most-popular, .recent-posts, .life-long-learning,
+.mental-health, .life-design, .note-taking, 
+.tools-for-thought {
+    margin: 1rem auto;
+    width: 70%;
+}
+
+.most-popular, .recent-posts, .life-long-learning,
+.mental-health, .life-design, .note-taking {
+    border-bottom: solid 1px;
+    padding: 1rem 0px 2rem 0px;
+}
+
+.most-popular h3 {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+}
+
+.most-popular a {
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+    
+    color: #5E936C;
+}
+
+.popular-blogs-list {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+}
+
+.popular-card-blog {
+    display: flex;
+}
+
+.popular-card-blog .card-text {
+    width: 75%;
+}
+
+.popular-card-blog img {
+    width: 25%;
+}
+
+.popular-card-blog .card-text h4, p {
+    margin: 0.25rem;
+}
+
+/* Recentpost */
+.recent-posts {
+    /* display: flex; */
+}
+
+.recent-posts-main {
+    display: inline-block;
+    width: 69%;
+
+    padding-right: 2rem;
+}
+
+.recent-posts-sidebar {
+    display: inline-block;
+    width: 30%;
+}
+
+.recent-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.recent-posts-main h2 {
+    /* display: inline-block;
+    width: 50%; */
+}
+.action-recent-post > a {
+    font-size: 0.75rem;
+    color: #5E936C;
+
+    margin-left: 1rem;
+}
+
+.action-recent-post > button {
+    background: transparent;
+    border-radius: 0.25rem;
+    border: solid 1px transparent;
+    
+    padding: 0.75rem;
+
+    transition: background linear 0.3s;
+}
+
+.action-recent-post > button:hover {
+    background:#E8FFD7;
+}
+
+.recent-post-container {
+    display: grid;
+    grid-template-columns: repeat(3, 32%);
+    gap: 0.75rem;
+
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.recent-card-blog {
+
+}
+
+.recent-card-blog:hover > .action-interact {
+    opacity: 1;
+}
+
+p {
+    margin: 0px;
+}
+
+.recent-card-blog > img {
+    width: 100%;
+}
+
+.blog-created-at {
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    color: grey;
+}
+
+.recent-card-blog > h3 {
+    text-transform: capitalize;
+    margin: 0.75rem 0;
+}
+
+.recent-card-blog > p {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+
+    margin: 0.5rem 0;
+}
+
+.action-interact {
+    display: flex;
+    /* background-color: red; */
+    justify-content: space-between;
+
+    opacity: 0;
+    transition: all linear 0.3s;
+}
+
+.action-interact a {
+    
+}
+
+.action-interact i {
+    color: black;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+
+    transition: background-color linear 0.3s;
+}
+
+.action-interact i:hover {
+    background-color: #E8FFD7;
+}
+
+.recent-btn-see-all {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: #5E936C solid 1px;
+
+    font-weight: bold;
+    color: #E8FFD7;
+    background-color: #5E936C;
+
+    transition: all linear 0.1s;
+}
+
+.recent-btn-see-all:hover {
+    background-color: #E8FFD7;
+    color: #5E936C;
+}
+
+.recent-btn-see-all > span {
+    margin-right: 0.5rem;
+}
+
+.recent-posts-sidebar > i {
+    color: #5E936C;
+    font-size: 2rem;
+}
+
+h4.name-page {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.sidebar-content {
+    font-size: 0.75rem;
+    color: gray;
+    line-height: 1.25rem;
+    text-align: justify;
+
+    margin: 1rem 0;
+}
+
+.input-subcribe-blog {
+    width: 100%;
+}
+
+.input-subcribe-blog input {
+    padding: 0.75rem 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border: 1px solid #5E936C;
+    background-color: #E8FFD7;
+}
+
+
+/* Chiu */
+.input-subcribe-blog input:focus {
+    border: none;
+}
+
+.input-subcribe-blog input:focus-within {
+    border: none;
+}
+
+.input-subcribe-blog button {
+    padding: 0.75rem 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border: 1px solid #5E936C;
+    background-color: #5E936C;
+
+    font-weight: bold;
+    color: #E8FFD7;
+}
+
+.divide-partline {
+    width: 100%;
+    height: 1px;
+    margin: 2rem 0;
+    background-color: rgba(0, 0, 0, 0.212);
+}
+
+.recent-recomendation {
+    margin: 0.75rem 0;
+}
+
+.recommendations-list {
+    display: flex;
+    flex-direction: column;
+    transform: translateX(-0.5rem);
+}
+
+.item-recommendation {
+    display: flex;
+    margin: 0.25rem 0;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+
+    transition: background-color linear 0.2s;
+}
+
+.item-recommendation:hover {
+    background-color: #E8FFD7;
+}
+
+.item-recommendation img {
+    height: 100%;
+    width: auto;
+
+    border-radius: 0.25rem;
+}
+
+.item-recommendation article {
+    font-size: 0.75rem;
+    margin-left: 1rem;
+}
+
+.item-recommendation article > h3 {
+    margin: 0.25rem 0;
+}
+
+.item-recommendation article > p {
+
+}
+
+/* LLL */
+.life-long-learning > h2 {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+}
+
+.life-long-learning > a {
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+
+    color: #5E936C;
+    font-size: 0.75rem;
+}
+
+.mental-health > h2 {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+}
+
+.mental-health > a {
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+
+    color: #5E936C;
+    font-size: 0.75rem;
+}
+
+.life-design > h2 {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+}
+
+.life-design > a {
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+
+    color: #5E936C;
+    font-size: 0.75rem;
+}
+
+.note-taking > h2 {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+}
+
+.note-taking > a {
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+
+    color: #5E936C;
+    font-size: 0.75rem;
+}
+
+.tools-for-thought > h2 {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+}
+
+.tools-for-thought > a {
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+
+    color: #5E936C;
+    font-size: 0.75rem;
+}
+
+.blogs-post {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 1rem;
+
+    width: 100%;
+}
+
+.blog-item {
+    
+}
+
+.blog-item img {
+    width: 100%;
+}
+
+.blog-item > h3 {
+    margin: 0.5rem 0;
+
+    text-transform: capitalize;
+}
+
+.post-description {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+
+    margin: 0.25rem 0;
+}
+
+.post-created-at {
+    color: gray;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.75rem;
+}

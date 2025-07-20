@@ -1,6 +1,26 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
 body {
     font-family: "Open Sans", sans-serif;
     font-style: normal;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 2rem;
+
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
 }
 
 .name-page {
@@ -10,13 +30,76 @@ body {
     font-size: 2rem;
 }
 
+.actions-user {
+    
+}
+
 .icon-header {
-
+    color: #5E936C;
 }
 
-.recent-posts {
-
+.action-search {
+    padding: 0.75rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: transparent;
+    transition: background-color 0.1s ease;
 }
+
+.action-share {
+    padding: 0.75rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: transparent;
+    transition: background-color 0.1s ease;
+}
+
+.action-share:hover {
+    background-color: #E8FFD7;
+}
+
+.action-search:hover {
+    background-color: #E8FFD7;
+}
+
+.action-subscribe {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: #5E936C solid 1px;
+
+    font-weight: bold;
+    color: #E8FFD7;
+    background-color: #5E936C;
+
+    transition: all linear 0.1s;
+}
+
+.action-subscribe:hover {
+    background-color: #E8FFD7;
+    color: #5E936C;
+}
+
+.action-sign-in {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: #5E936C solid 1px;
+
+    font-weight: bold;
+    color: #5E936C;
+    background-color: #E8FFD7;
+
+    transition: all linear 0.1s;
+}
+
+.action-sign-in:hover {
+    border: #E8FFD7 solid 1px;
+    background-color: #5E936C;
+    color: #E8FFD7;
+}
+
+.icon-header {}
+
+.recent-posts {}
 
 .recent-posts-main {
     width: 70%;
@@ -27,10 +110,53 @@ body {
 }
 
 footer {
-    height: 7rem;
+    height: auto;
     background-color: #5E936C;
 }
 
 .footer-sign {
     text-align: center;
+    padding: 2rem 0;
+    color: #E8FFD7;
+}
+
+/* Nav */
+nav {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+
+}
+
+.menu-app {
+    list-style-type: none;
+
+    display: flex;
+    /* gap: 2rem; */
+    justify-content: center;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.menu-app li {
+    /* background-color: #5E936C; */
+    padding: 0.75rem;
+
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: transparent;
+}
+
+.menu-app li a {
+    padding: 0.75rem;
+    /* background-color: red; */
+
+    text-decoration: none;
+    color: #5E936C;
+    font-weight: bold;
+}
+
+.menu-app li:hover {
+    background-color: #E8FFD7;
+    border-bottom-style: solid;
+    border-bottom-color: #5E936C;
 }
