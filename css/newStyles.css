@@ -1,0 +1,32 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    /* margin: 0;
+    padding: 0; */
+}
+
+img {
+    max-width: 70%;
+}
+
+header {
+    /* background-color: yellowgreen; */
+    padding: 1rem;
+    width: 70%;
+    margin: auto;
+}
+
+main {
+    /* background-color: cadetblue; */
+    padding: 1rem;
+    width: 70%;
+    margin: auto;
+}
+
+footer {
+    /* background-color: chartreuse; */
+    padding: 0.25rem;
+}

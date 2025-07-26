@@ -1,0 +1,118 @@
+header > h2 {
+    display: inline-block;
+}
+
+header > ul {
+    display: inline-flex;
+
+    list-style-type: none;
+}
+
+header > .contacts {
+    display: inline-block;
+    
+}
+
+.nav-page > li > a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem 1rem;
+
+    text-transform: uppercase;
+}
+
+.contacts {
+    font-size: 1.25vw;
+    height: 100%;
+}
+
+.contacts > a {
+    color: black;
+    transition: color 0.1 linear;
+}
+
+.contacts > a:hover {
+    color: palevioletred;
+}
+
+.blog-item {
+    text-align: center;
+}
+
+.blog-item > h1 {
+    width: 60%;
+    margin: auto;
+    font-size: 2rem;
+}
+
+.blog-item > img {
+    /* height: auto; chưa biết để height kiểu gì*/
+    margin: 1rem 0;
+}
+
+.publish-date {
+    margin-top: 0.25rem;
+    margin-bottom: 2rem;
+}
+
+.summary-content {
+    width: 50%;
+    margin: auto;
+
+    text-align: justify;
+}
+
+.interact-blog {
+    margin: 3rem 0;
+}
+
+.btn-readmore {
+    padding: 0.75rem 1.5rem;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    border: none;
+    font-size: 0.75vw;
+    margin: 0 1rem;
+
+    transition: background-color 0.1s linear;
+}
+
+.btn-readmore:hover {
+    background-color: rgb(63, 63, 63);
+}
+
+.btn-comment {
+    color: black;
+    text-decoration: none;
+}
+
+.text-footer {
+    text-align: center;
+    color: dimgray;
+}
+
+.link-footer {
+    color: black;
+
+    position: relative;
+}
+
+.link-footer::before {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    transition: background-color 0.2s linear;
+}
+
+/* chưa làm được hover ::before */
+.link-footer:hover > ::before {
+    background-color: aqua;
+}
+
